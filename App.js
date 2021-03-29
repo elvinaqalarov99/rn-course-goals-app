@@ -62,6 +62,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   platform: {
+    flex: 1,
     paddingTop:
       Platform.OS === "android" || Platform.OS === "ios"
         ? StatusBar.currentHeight + 30

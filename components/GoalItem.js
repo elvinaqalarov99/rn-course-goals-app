@@ -18,9 +18,6 @@ const styles = StyleSheet.create({
   goalList: {
     padding: 8,
     borderWidth: 1,
-    flex: 1,
-    justifyContent: "center",
-    // alignItems: "center",
     borderColor: "black",
     backgroundColor: "#ccc",
     marginBottom: 10,
