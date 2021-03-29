@@ -36,10 +36,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    // marginBottom: 15,
   },
   textInput: {
-    // flex: 1,
     width: "80%",
     borderColor: "black",
     borderWidth: 1,
