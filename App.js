@@ -63,11 +63,12 @@ export default function App() {
 const styles = StyleSheet.create({
   platform: {
     flex: 1,
+    padding: 40,
     paddingTop:
       Platform.OS === "android" || Platform.OS === "ios"
         ? StatusBar.currentHeight + 30
-        : 40,
-    padding: 40,
+        : 70,
+
     paddingBottom: 60,
   },
 });
